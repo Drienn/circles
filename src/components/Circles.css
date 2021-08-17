@@ -5,6 +5,7 @@
   display: grid;
   grid-template-columns: 100px 100px 100px 100px 100px 100px;
   grid-gap: 50px;
+  cursor: pointer;
 }
 
 .row {
@@ -20,6 +21,7 @@
 
 .red {
   background-color: red;
+  color: red;
 }
 
 .blue {
