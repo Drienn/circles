@@ -25,24 +25,6 @@ export default function Circles() {
   return (
 <div className="circle">
   {colors.map((color) => <ColorCheck color={color} key={color}/>)}
-  {/* <div className="row red" onToggle={onToggle} value={color} onClick={setColor}></div>
-  <div className="row blue" onToggle={onToggle} value={color} onClick={setColor}>Blue</div>
-  <div className="row green" onToggle={onToggle} value={color} onClick={setColor}>Green</div>
-  <div className="row yellow" onToggle={onToggle} value={color} onClick={setColor}>Yellow</div>
-  <div className="row orange" onToggle={onToggle} value={color} onClick={setColor}>Orange</div>
-  <div className="row black" onToggle={onToggle} value={color} onClick={setColor}>Black</div>
-  <div className="row blue" onToggle={onToggle} value={color} onClick={setColor}>Blue</div>
-  <div className="row blue" onToggle={onToggle} value={color} onClick={setColor}>Blue</div>
-  <div className="row blue" onToggle={onToggle} value={color} onClick={setColor}>Blue</div>
-  <div className="row blue" onToggle={onToggle} value={color} onClick={setColor}>Blue</div>
-  <div className="row blue" onToggle={onToggle} value={color} onClick={setColor}>Blue</div>
-  <div className="row blue" onToggle={onToggle} value={color} onClick={setColor}>Blue</div>
-  <div className="row red" onToggle={onToggle} value={color} onClick={setColor}></div>
-  <div className="row green" onToggle={onToggle} value={color} onClick={setColor}>Green</div>
-  <div className="row red" onToggle={onToggle} value={color} onClick={setColor}></div>
-  <div className="row green" onToggle={onToggle} value={color} onClick={setColor}>Green</div>
-  <div className="row red" onToggle={onToggle} value={color} onClick={setColor}></div>
-  <div className="row green" onToggle={onToggle} value={color} onClick={setColor}>Green</div> */}
 </div>
   );
 }

@@ -22,29 +22,39 @@
 .red {
   background-color: red;
   color: red;
+  border-color: red;
 }
 
 .blue {
   background-color: blue;
   color: blue;
+  border-color: blue;
 }
 
 .green {
   background-color: darkgreen;
   color: darkgreen;
+  border-color: darkgreen;
 }
 
 .yellow {
   background-color: yellow;
   color: yellow;
+  border-color: yellow;
 }
 
 .orange {
   background-color: orange;
   color: orange;
+  border-color: orange;
 }
 
 .black {
   background-color: black;
   color: black;
+  border-color: black;
+}
+
+.outline {
+  background-color: transparent;
 }
