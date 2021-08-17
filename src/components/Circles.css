@@ -7,7 +7,7 @@
   grid-gap: 50px;
 }
 
-.row-1 {
+.row {
   height: 100px;
   width: 100px;
   border-radius: 50%;
@@ -18,24 +18,31 @@
   line-height: 100px;
 }
 
-.row-2 {
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-  flex-direction: row;
-  border: 3px solid;
-  text-align: center;
-  padding: 10px;
-  line-height: 100px;
+.red {
+  background-color: red;
 }
 
-.row-3 {
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-  flex-direction: row;
-  border: 3px solid;
-  text-align: center;
-  padding: 10px;
-  line-height: 100px;
+.blue {
+  background-color: blue;
+  color: blue;
+}
+
+.green {
+  background-color: darkgreen;
+  color: darkgreen;
+}
+
+.yellow {
+  background-color: yellow;
+  color: yellow;
+}
+
+.orange {
+  background-color: orange;
+  color: orange;
+}
+
+.black {
+  background-color: black;
+  color: black;
 }
