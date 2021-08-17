@@ -1,0 +1,41 @@
+.circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 50px;
+}
+
+.row-1 {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  flex-direction: row;
+  border: 3px solid;
+  text-align: center;
+  padding: 10px;
+  line-height: 100px;
+}
+
+.row-2 {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  flex-direction: row;
+  border: 3px solid;
+  text-align: center;
+  padding: 10px;
+  line-height: 100px;
+}
+
+.row-3 {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  flex-direction: row;
+  border: 3px solid;
+  text-align: center;
+  padding: 10px;
+  line-height: 100px;
+}
